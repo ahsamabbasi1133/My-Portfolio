@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="/ahsam Portfolio\slick-1.8.1\slick\slick.css" />
+    <link rel="stylesheet" type="text/css" href="/ahsam Portfolio\slick-1.8.1\slick\slick-theme.css" /> -->
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid d-flex " style="background-image: linear-gradient(to right, black,rgb(30, 30, 30));">
+        <div class="container-fluid mb-4 text-white">
+            <nav class="navbar navbar-expand-lg bg-body-black sticky-top">
+                <i class="fa-solid fa-user-tie fa-2x text-white ms-2 mt-2"></i><span
+                    class="ms-2 text-white">Program Developer</span>
+                <i class="fa-solid fa-face-smile text-warning ms-1">
+                </i>
+
+                <a class="navbar-brand nav-link text-info" style="margin-left: 570px;" href="#About Me">About Me</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#About Me">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#Contact Us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-around align-items-center bg-black"
+        style="background-image: linear-gradient(to right, black,rgb(30, 30, 30));">
+        <div class="" style=" margin-left: 70px;">
+            <h5 class="text-white"><b>HI, I AM</b> </h5>
+            <div class="cssanimation leSnake sequence">
+                <h1 class="text-warning">Ahassam Shafiq</h1>
+            </div>
+
+            <span class="ms-3 text-white"> <span class="text-danger">Full Stack Developer</span> | <span
+                    class="text-info">UI
+                    Designer</span></span>
+        </div>
+        <div>
+            <img src="Ahsampic1.jpg" class="shadow-lg" alt=""
+                style="height: 500px; width: 500px; opacity: 0.7; border-top-left-radius: 4em;  border-bottom-right-radius: 4em;">
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class="container-fluid bg-black  text-white " style="height: 100vh;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="#" class=" rounded-3 kk" alt=""
+                        style="height: 600px; width: 600px; margin-left: 50px;">
+                </div>
+                <div class="col-md-6 kk">
+                    <h1 id="About Me">About Me</h1>
+                    <span> I am a hard working, reliable and excellent
+                        time keeper. I am a bright and receptive
+                        person, able to communicate well with
+                        people at all levels. I am good at working
+                        using my own initiative and I am flexible in
+                        my approach to work duties. I have a good
+                        sense of humour and a pleasant approach.</span><br>
+    
+                <div class="row mt-5 kk">
+                    <div class="col-md-4">
+                        <a href="" class="nav-link text-warning d-inline me-5 " id="About Me"><h3>Skills</h3></a>
+                        <h6 class="text-danger">UI:</h6>
+                        <li>UI Designer</li>
+                        <li>Figma</li>
+                        <li>Autocad 2D</li>
+                        <h6 class="text-danger mt-3">Web Development:</h6>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>PhP</li>
+                        <li>Mysql</li>
+                    </div>
+                        <div class="col-md-4" style="margin-left: -50px;">
+                            <a href="" class="nav-link text-warning d-inline me-5 mb-3"><h3>Experience</h3></a>
+                            <h6 class="text-danger">2019 past:</h6>
+                            <li>Internship in Autocad</li>
+                            <h6 class="text-danger">2023 past:</h6>
+                            <li>Internship in ML</li>
+                                <h6 class="text-danger mt-3">Projects:</h6>
+                                <li>Self-Directed Projects</li>
+                                <h6 class="text-danger">2024 Present:</h6>
+                                <li>Doing Internship In Web Development</li>
+                                <li>Doing Web Development Course At Crafting Colons</li>
+                        </div>
+                        <div class="col-md-4" style="margin-left: 20px;">
+                            <a href="" class="nav-link text-warning d-inline me-5 mb-3"><h3>Education</h3></a>
+                            <h6 class="text-danger">Matric:</h6>
+                            <li>Islamabad Mode College for boys(Science), i-10/1, ISB</li>
+                            <h6 class="text-danger mt-3">FSC:</h6>
+                            <li>Swedish group of College(DAE)</li>
+                            <h6 class="text-danger mt-3">University:</h6>
+                            <li>Iqra University(Computer Science)</li>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="container-fluid text-center bg-black">
+            <div class="row">
+                <div class="col-md-12 mt-4">
+                    <h2><span class="text-white kk" id="Services">My Services</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center bg-black" style="height: 300px;">
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card kk">
+                        <img src="" alt="">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Web Development</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    reiciendis, eos molestias quibusdam culpa possimus. Placeat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card kk">
+                        <img src="" alt="">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Web Designing</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    reiciendis, eos molestias quibusdam culpa possimus. Placeat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card kk">
+                        <img src="" alt="">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>App Designing</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    reiciendis, eos molestias quibusdam culpa possimus. Placeat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center bg-black">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><span class="text-white kk">My Work</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center bg-black" style="height: 500px;">
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="card kk w-100 h-100">
+                        <img src="iqrauniii.jpeg" class="card-img-top" alt="" style=" border-top-left-radius: 4em;">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3> Build Iqra University Website</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    reiciendis, eos molestias quibusdam culpa possimus. Placeat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card kk w-100 h-100">
+                        <img src="lms.jpg" alt="" style=" border-top-left-radius: 4em;">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>LMS System Of School</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    haha Placeat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card kk w-100 h-100">
+                        <img src="#" alt="" style=" border-top-left-radius: 4em;">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Fast Food Prototype</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos delectus
+                                    impedit voluptates quasi maxime autem blanditiis aut iusto aliquid asperiores
+                                    laceat, ab adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around">
+            <div class="container-fluid bg-black text-white" style="height: 430px;">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-6">
+                        <h1 class="text-center kk" id="Contact Us"><b>Contact Us</b></h1>
+                        <i class="fa-solid fa-location-arrow kk me-1 text-danger mb-2" style="margin-left: 190px;"></i>
+                        <span class="kk">ahsamabbasi3311@gmail.com</span><br>
+                        <i class="fa-brands fa-whatsapp kk text-success mb-2" style="margin-left: 190px;"></i> <span
+                            class="kk">+923335885402</span>
+                        <div>
+                            <div class="text-center mt-2">
+                                <i class="fa-brands fa-square-instagram kk text-danger me-3"></i>
+                                <i class="fa-brands fa-tiktok kk text-white me-3"></i>
+                                <i class="fa-brands fa-facebook kk text-info "></i>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-outline-danger kk ">Download CV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="form-group me-5 kk">
+                            <input type="text" class="form-control  mb-3" name="" id="" placeholder="Your Name">
+                            <input type="email" class="form-control  mb-3" name="" id="" placeholder="Your Email">
+                            <textarea name="" id="" class="form-control " placeholder="Your Message" cols="30"
+                                rows="10"></textarea>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-outline-danger">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 40px;">
+            <div class="text-center mt-2 border-2 border-bottom border-warning">
+                <p>Copywrite@ Ahassam Shafiq. Developed With HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP and MYSQL <i
+                        class="fa-solid fa-heart text-danger"></i></p>
+    
+            </div>
+        </div>
+    
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="/Kawish Portfolio\slick-1.8.1\slick\slick.min.js"></script>
+    </body>
+    </html>                                
